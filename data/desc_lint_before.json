@@ -1,0 +1,1040 @@
+{
+ "tool": "dsh-skill-desc-lint.py M19",
+ "generated_at": "2026-11-06T11:21:24.797209+00:00",
+ "pool": "/home/wsc/wsc/ChinaSimStdio/.agents/skills",
+ "pool_size": 115,
+ "sop_pass": 1,
+ "sop_pass_rate": 0.0087,
+ "r1_length_split": {
+  "pass": 5,
+  "short": 109,
+  "over": 0,
+  "n/a": 1
+ },
+ "r2_signal_rate": 0.3217,
+ "r3_exclude_rate": 0.0174,
+ "violations": [
+  {
+   "skill": "arpack-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 ARPACK 3.9.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "assimp-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Assimp 6.0.5 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "benchmark-library",
+   "ok": false,
+   "desc_chars": 69,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Google Benchmark 1.9.5 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "boost-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Boost 1.92.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "brainstorming",
+   "ok": false,
+   "desc_chars": 198,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "You MUST use this before any creative work - creating features, building compone"
+  },
+  {
+   "skill": "calculix-library",
+   "ok": false,
+   "desc_chars": 60,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 CalculiX 2.22 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "catch2-library",
+   "ok": false,
+   "desc_chars": 60,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Catch2 3.16.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "cgal-library",
+   "ok": false,
+   "desc_chars": 51,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 CGAL 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "cgns-library",
+   "ok": false,
+   "desc_chars": 57,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 CGNS 4.5.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "chinasim-3d-expert",
+   "ok": false,
+   "desc_chars": 104,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "ChinaSim 3D 视口/渲染专家——CAE/CAD 商业级三维显示、建模细分、光照材质、交互拾取与离屏渲染的统一约束。涉及 3D 建模、VTK/OpenC"
+  },
+  {
+   "skill": "chinasim-benchmark-tpl",
+   "ok": false,
+   "desc_chars": 136,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "ChinaSimStdio 对标功能条目 YAML 模板、对标矩阵列规范与 P0 任务卡规范；適用於编写或修改对标矩阵条目、创建功能任务卡、扩展 docs/v0"
+  },
+  {
+   "skill": "chinasim-brainstorm",
+   "ok": false,
+   "desc_chars": 84,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "方案头脑风暴工作法：先发散后收敛，输出候选方案对比与推荐；適用於接到开放式设计问题、技术选型、架构决策前時使用；触发时机：接到开放式设计问题、技术选型、架构决策"
+  },
+  {
+   "skill": "chinasim-code-review",
+   "ok": false,
+   "desc_chars": 68,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "代码审查工作法：请求审查与接收审查的标准动作；適用於提交 PR 前、收到审查意见时時使用；触发时机：提交 PR 前、收到审查意见时使用。"
+  },
+  {
+   "skill": "chinasim-debugging",
+   "ok": false,
+   "desc_chars": 79,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "系统化调试工作法：复现→假设→最小案例→修复→回归；適用於任何 bug、数值发散、结果偏差超标时時使用；触发时机：任何 bug、数值发散、结果偏差超标时使用。"
+  },
+  {
+   "skill": "chinasim-docs-style",
+   "ok": false,
+   "desc_chars": 102,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "ChinaSimStdio 文档写作规范：册.章编号、交叉引用格式、禁用 AI 填充术语；適用於在 docs/ 下撰写或修改任何技术文档时時使用；触发时机：在 "
+  },
+  {
+   "skill": "chinasim-expert-routing",
+   "ok": false,
+   "desc_chars": 186,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "领域专家子代理路由表：28 个专家方向（几何网格/十大求解器/电磁EDA/平台界面/工程保障五组）与两步派发流程；適用於接到专业任务需要派子代理时使用：先查路由"
+  },
+  {
+   "skill": "chinasim-git-worktree",
+   "ok": false,
+   "desc_chars": 96,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "git worktree 隔离工作法：并行任务互不污染工作区；適用於同时推进两个独立功能/修复，或需要在不打断主线时实验時使用；触发时机：同时推进两个独立功能/"
+  },
+  {
+   "skill": "chinasim-manual-archive",
+   "ok": false,
+   "desc_chars": 123,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "ChinaSimStdio 手册库（wsc/manuals）结构、版本对应与 zip 分卷还原流程；適用於查找官方手册、还原大文件、校验手册库完整性、新增手册归"
+  },
+  {
+   "skill": "chinasim-motor-tdd",
+   "ok": false,
+   "desc_chars": 127,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "电机Workbench插件TDD开发工作流 — 每模块先写doctest测试→写实现→g++编译验证→运行测试；適用於开发motor_workbench插件的任"
+  },
+  {
+   "skill": "chinasim-subagent-dev",
+   "ok": false,
+   "desc_chars": 108,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "子代理驱动开发工作法：拆分→派发→汇总的并行开发模式；適用於任务可拆为 3 个以上独立子任务时（多领域对标、批量文档、批量测试）時使用；触发时机：任务可拆为 3"
+  },
+  {
+   "skill": "chinasim-tdd",
+   "ok": false,
+   "desc_chars": 100,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "TDD 红绿重构工作法：先写失败测试→最小实现→重构，求解器开发以基准案例为测试；適用於开发任何求解器内核、数据处理、API 功能时時使用；触发时机：开发任何求"
+  },
+  {
+   "skill": "chinasim-ui-design",
+   "ok": false,
+   "desc_chars": 68,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在设计或改造 ChinaSimStdio 用户界面、Qt 组件或仿真工作台时使用；涵盖 UI/UX、仿真专用组件、中文规范和插件化架构。"
+  },
+  {
+   "skill": "chinasim-ui-expert",
+   "ok": false,
+   "desc_chars": 187,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "ChinaSim UI/UX 方针界面工具开发专家：界面开发全流程的统一约束、设计系统（色彩/字体/间距/组件令牌）、交互规范、行业管理惯例、治理与验收门禁；適"
+  },
+  {
+   "skill": "chinasim-verification",
+   "ok": false,
+   "desc_chars": 72,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "完成前验证工作法：对照验收判据逐条核验，禁止\"应该可以\"；適用於任何任务宣告完成之前，必须执行時使用；触发时机：任何任务宣告完成之前，必须执行。"
+  },
+  {
+   "skill": "chinasim-writing-plans",
+   "ok": false,
+   "desc_chars": 82,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "写实施计划工作法：分阶段、每步可验证、含验收判据与回滚点；適用於启动多步任务、大型重构、新求解器开发前時使用；触发时机：启动多步任务、大型重构、新求解器开发前使"
+  },
+  {
+   "skill": "codearts-bugfix",
+   "ok": false,
+   "desc_chars": 61,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts bug-fix-agent 复刻：issue解析→复现→静态定位→动态定位→补丁→回归 六步串行修复链。"
+  },
+  {
+   "skill": "codearts-bugfix-verification",
+   "ok": false,
+   "desc_chars": 101,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts bug-fix-verification/regression-validation 复刻：补丁回归验证——复现测试转绿+相邻用例不回归+sm"
+  },
+  {
+   "skill": "codearts-developer-test",
+   "ok": false,
+   "desc_chars": 83,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts developer-test-agent 复刻：doctest 单元测试生成/修复/覆盖验证，必须传用户原始 query 原文。SDD 流程阶"
+  },
+  {
+   "skill": "codearts-dynamic-root-cause",
+   "ok": false,
+   "desc_chars": 101,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts dynamic-root-cause-localization 复刻：运行时根因定位（最小案例+日志+_progress.json 埋点核对）"
+  },
+  {
+   "skill": "codearts-experience",
+   "ok": false,
+   "desc_chars": 92,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts experience-manager 复刻（experience-collect/experience-refine）：任务完成后提取经验、精"
+  },
+  {
+   "skill": "codearts-explore",
+   "ok": false,
+   "desc_chars": 89,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts explore/CodeSemanticSearch 复刻：实现前代码踩点，graphflow_context 优先，禁裸 grep 探索。S"
+  },
+  {
+   "skill": "codearts-issue-analysis",
+   "ok": false,
+   "desc_chars": 82,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts issue-analysis 复刻：解析原始 issue 为规范 JSON（现象/复现步骤/期望/实际/影响范围）。bug-fix 六步链第1"
+  },
+  {
+   "skill": "codearts-issue-reproduction",
+   "ok": false,
+   "desc_chars": 69,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts issue-reproduction 复刻：生成最小复现测试（doctest），确认必现。bug-fix 六步链第2步。"
+  },
+  {
+   "skill": "codearts-knowledge",
+   "ok": false,
+   "desc_chars": 67,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts Knowledge 文档知识库检索复刻：设计前先检索 docs/ 已有设计/对标/手册文档，避免重复设计与口径漂移。"
+  },
+  {
+   "skill": "codearts-patch-generation",
+   "ok": false,
+   "desc_chars": 90,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts patch-generation 复刻：生成并应用补丁（业务代码禁内嵌测试性设计，改 C++ 后 clang-format -i）。bug-f"
+  },
+  {
+   "skill": "codearts-rule-generator",
+   "ok": false,
+   "desc_chars": 77,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts rule-generator 复刻：从重复出现的纠偏/审查结论生成长期生效的编码或流程规则，沉淀进 AGENTS.md 或专项规则文件。"
+  },
+  {
+   "skill": "codearts-sdd",
+   "ok": false,
+   "desc_chars": 133,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts SDD 工作模式总编排：七阶段 spec 驱动流水线（需求→设计→任务→探索→实现→测试→审计），复刻 CodeArts CLI 的 suba"
+  },
+  {
+   "skill": "codearts-security-audit",
+   "ok": false,
+   "desc_chars": 95,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts security_audit 复刻：合并前安全审计——用 review 工具 security/correctness 镜头扫描全仓库/PR/"
+  },
+  {
+   "skill": "codearts-spec-design",
+   "ok": false,
+   "desc_chars": 91,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts spec-design-agent 复刻：技术设计文档生成（架构/接口/伪代码/对标映射/测试策略），产物 docs/spec/design/"
+  },
+  {
+   "skill": "codearts-spec-requirements",
+   "ok": false,
+   "desc_chars": 86,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts spec-requirement-agent 复刻：EARS 格式需求规范生成，产物 docs/spec/requirements/。SDD "
+  },
+  {
+   "skill": "codearts-spec-tasks",
+   "ok": false,
+   "desc_chars": 94,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts spec-task-agent 复刻：可执行任务分解（复杂度+验收标准+依赖序），产物 docs/spec/tasks/ + todo/看板子"
+  },
+  {
+   "skill": "codearts-static-root-cause",
+   "ok": false,
+   "desc_chars": 107,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "CodeArts static-root-cause-localization 复刻：静态根因定位（graphflow_context + 定向 read），给"
+  },
+  {
+   "skill": "cpp23-architecture",
+   "ok": false,
+   "desc_chars": 118,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "'Design C++23 architecture using modern features: concepts, ranges, coroutines, "
+  },
+  {
+   "skill": "dealii-library",
+   "ok": false,
+   "desc_chars": 146,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when implementing or troubleshooting deal.II finite-element solvers, adaptiv"
+  },
+  {
+   "skill": "diagnosing-superpowers",
+   "ok": false,
+   "desc_chars": 375,
+   "r1_length": "pass",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when a superpowers session went wrong and your human partner wants to know w"
+  },
+  {
+   "skill": "dispatching-parallel-agents",
+   "ok": false,
+   "desc_chars": 106,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when facing 2+ independent tasks that can be worked on without shared state "
+  },
+  {
+   "skill": "dolfin-library",
+   "ok": false,
+   "desc_chars": 69,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 DOLFIN (FEniCSx) 0.9.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "eigen-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Eigen 5.0.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "executing-plans",
+   "ok": false,
+   "desc_chars": 170,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when executing an implementation plan in the current session as the implemen"
+  },
+  {
+   "skill": "fftw-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 FFTW 3.3.10 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "finishing-a-development-branch",
+   "ok": false,
+   "desc_chars": 101,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when implementation is complete, all tests pass, and you need to decide how "
+  },
+  {
+   "skill": "fmt-library",
+   "ok": false,
+   "desc_chars": 57,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 fmt 12.2.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "freefem-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 FreeFEM 4.14 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "getdp-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 GetDP 4.0.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "gmsh-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Gmsh 4.15.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "graphflow",
+   "ok": false,
+   "desc_chars": 138,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "图谱上下文压缩、任务规划与知识图谱编排（10 个 MCP 工具）。任何读代码、改代码、排错、中文问题之前必须先调 graphflow_context。DeepS"
+  },
+  {
+   "skill": "gromacs-library",
+   "ok": false,
+   "desc_chars": 61,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 GROMACS 2025.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "gtest-library",
+   "ok": false,
+   "desc_chars": 64,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 GoogleTest 1.18.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "hdf5-library",
+   "ok": false,
+   "desc_chars": 57,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 HDF5 2.2.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "hypre-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 hypre 3.2.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "kokkos-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Kokkos 5.2.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "lammps-library",
+   "ok": false,
+   "desc_chars": 53,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 LAMMPS 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "libigl-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 libigl 2.6.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "libsc-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 libsc 2.8.5 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "meep-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Meep 1.30.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "metis-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 METIS 5.2.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "mfem-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 MFEM 4.10.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "mmg-library",
+   "ok": false,
+   "desc_chars": 56,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 MMG 5.2.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "moose-library",
+   "ok": false,
+   "desc_chars": 137,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when developing or troubleshooting MOOSE multiphysics simulations, libMesh/P"
+  },
+  {
+   "skill": "mumps-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 MUMPS 5.7.3 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "netcdf-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 NetCDF 4.9.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "netgen-library",
+   "ok": false,
+   "desc_chars": 65,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Netgen/NGSolve 6.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "nlohmann-json-library",
+   "ok": false,
+   "desc_chars": 67,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 nlohmann-json 3.12.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "nng-library",
+   "ok": false,
+   "desc_chars": 57,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 NNG 1.12.3 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "occt-library",
+   "ok": false,
+   "desc_chars": 51,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 OCCT 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "openblas-library",
+   "ok": false,
+   "desc_chars": 62,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 OpenBLAS 0.3.29 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "openfoam-library",
+   "ok": false,
+   "desc_chars": 121,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when running or debugging OpenFOAM CFD cases, solver configuration, or proce"
+  },
+  {
+   "skill": "p4est-library",
+   "ok": false,
+   "desc_chars": 52,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 p4est 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "paraview-library",
+   "ok": false,
+   "desc_chars": 62,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 ParaView 5.11.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "parmetis-library",
+   "ok": false,
+   "desc_chars": 61,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 ParMETIS 4.0.3 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "patent-writing-cn",
+   "ok": false,
+   "desc_chars": 165,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when 需要为中国发明专利（尤其软件/计算机领域）撰写技术交底书、权利要求书、说明书或专利申请文件，或需要评审/修改已有专利文本、排查审查意见缺陷（客"
+  },
+  {
+   "skill": "petsc-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 PETSc 3.25.5 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "precice-library",
+   "ok": false,
+   "desc_chars": 60,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 preCICE 3.4.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "project-management",
+   "ok": false,
+   "desc_chars": 100,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when breaking ChinaSimStdio goals into tasks, milestones, dependencies, or d"
+  },
+  {
+   "skill": "protobuf-library",
+   "ok": false,
+   "desc_chars": 62,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Protobuf 6.33.4 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "pybind11-library",
+   "ok": false,
+   "desc_chars": 61,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 pybind11 3.1.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "python-cli-ai",
+   "ok": false,
+   "desc_chars": 94,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "Build Python CLI tools and AI interaction layers using Python 3.13+, Click/Typer"
+  },
+  {
+   "skill": "qt6-library",
+   "ok": false,
+   "desc_chars": 50,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Qt6 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "qt6-ui-development",
+   "ok": false,
+   "desc_chars": 83,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "Build Qt6 UI using Qt6 Widgets, QML, Qt Quick, and modern Qt6 architecture patte"
+  },
+  {
+   "skill": "receiving-code-review",
+   "ok": false,
+   "desc_chars": 234,
+   "r1_length": "pass",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when receiving code review feedback, before implementing suggestions, especi"
+  },
+  {
+   "skill": "requesting-code-review",
+   "ok": false,
+   "desc_chars": 107,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when completing tasks, implementing major features, or before merging to ver"
+  },
+  {
+   "skill": "sci-journal-sosym",
+   "ok": false,
+   "desc_chars": 161,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": true,
+   "head": "Use when 为 SoSyM (Software and Systems Modeling, Springer) 撰写、改投、适配或投稿论文，需要 SoSy"
+  },
+  {
+   "skill": "sci-paper-search",
+   "ok": false,
+   "error": "no frontmatter"
+  },
+  {
+   "skill": "sci-paper-writing",
+   "ok": false,
+   "desc_chars": 204,
+   "r1_length": "pass",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when 撰写、修改、润色或投稿 SCI 期刊论文（计算机/软件工程/仿真方向，含电机/电磁压扭多物理场系列），或回应审稿意见 R1、生成投稿前检查清单"
+  },
+  {
+   "skill": "scotch-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 SCOTCH 7.0.4 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "slepc-library",
+   "ok": false,
+   "desc_chars": 57,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 SLEPc 3.25 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "spdlog-library",
+   "ok": false,
+   "desc_chars": 60,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 spdlog 1.17.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "spooles-library",
+   "ok": false,
+   "desc_chars": 58,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 SPOOLES 2.2 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "su2-library",
+   "ok": false,
+   "desc_chars": 138,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when implementing or troubleshooting SU2 CFD workflows, MPI/CGNS configurati"
+  },
+  {
+   "skill": "subagent-driven-development",
+   "ok": false,
+   "desc_chars": 85,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when executing implementation plans with independent tasks in the current se"
+  },
+  {
+   "skill": "sundials-library",
+   "ok": false,
+   "desc_chars": 61,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 SUNDIALS 7.9.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "superlu-dist-library",
+   "ok": false,
+   "desc_chars": 65,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 SuperLU_DIST 9.1.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "systematic-debugging",
+   "ok": false,
+   "desc_chars": 91,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when encountering any bug, test failure, or unexpected behavior, before prop"
+  },
+  {
+   "skill": "tbb-library",
+   "ok": false,
+   "desc_chars": 62,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 oneTBB 2023.1.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "test-driven-development",
+   "ok": false,
+   "desc_chars": 79,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when implementing any feature or bugfix, before writing implementation code"
+  },
+  {
+   "skill": "tetgen-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 TetGen 1.5.1 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "triangle-library",
+   "ok": false,
+   "desc_chars": 59,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Triangle 1.6 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "trilinos-library",
+   "ok": false,
+   "desc_chars": 62,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 Trilinos 13.2.0 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "using-git-worktrees",
+   "ok": false,
+   "desc_chars": 196,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when starting feature work that needs isolation from current workspace or be"
+  },
+  {
+   "skill": "using-superpowers",
+   "ok": false,
+   "desc_chars": 154,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when starting any conversation - establishes how to find and use skills, req"
+  },
+  {
+   "skill": "verification-before-completion",
+   "ok": false,
+   "desc_chars": 225,
+   "r1_length": "pass",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when about to claim work is complete, fixed, or passing, before committing o"
+  },
+  {
+   "skill": "vtk-library",
+   "ok": false,
+   "desc_chars": 50,
+   "r1_length": "short",
+   "r2_signal": false,
+   "r3_exclude": false,
+   "head": "在 ChinaSimStdio 中集成、配置、调用或排查 VTK 时使用；接口和构建细节见技能正文。"
+  },
+  {
+   "skill": "writing-plans",
+   "ok": false,
+   "desc_chars": 84,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when you have a spec or requirements for a multi-step task, before touching "
+  },
+  {
+   "skill": "writing-skills",
+   "ok": false,
+   "desc_chars": 97,
+   "r1_length": "short",
+   "r2_signal": true,
+   "r3_exclude": false,
+   "head": "Use when creating new skills, editing existing skills, or verifying skills work "
+  }
+ ]
+}

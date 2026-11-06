@@ -1,0 +1,538 @@
+{
+ "tool": "dsh-skill-desc-rewrite.py M20",
+ "applied": true,
+ "ts": "20261106_114930",
+ "pool": "/home/wsc/wsc/ChinaSimStdio/.dsh/skills",
+ "scanned": 88,
+ "changed": 88,
+ "rows": [
+  {
+   "skill": "arpack-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "assimp-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "benchmark-library",
+   "old_chars": 69,
+   "new_chars": 202,
+   "changed": true
+  },
+  {
+   "skill": "boost-library",
+   "old_chars": 59,
+   "new_chars": 285,
+   "changed": true
+  },
+  {
+   "skill": "brainstorming",
+   "old_chars": 198,
+   "new_chars": 255,
+   "changed": true
+  },
+  {
+   "skill": "calculix-library",
+   "old_chars": 60,
+   "new_chars": 292,
+   "changed": true
+  },
+  {
+   "skill": "catch2-library",
+   "old_chars": 60,
+   "new_chars": 288,
+   "changed": true
+  },
+  {
+   "skill": "cgal-library",
+   "old_chars": 51,
+   "new_chars": 275,
+   "changed": true
+  },
+  {
+   "skill": "cgns-library",
+   "old_chars": 57,
+   "new_chars": 281,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-3d-expert",
+   "old_chars": 104,
+   "new_chars": 292,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-benchmark-tpl",
+   "old_chars": 136,
+   "new_chars": 332,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-brainstorm",
+   "old_chars": 84,
+   "new_chars": 274,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-code-review",
+   "old_chars": 68,
+   "new_chars": 260,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-debugging",
+   "old_chars": 79,
+   "new_chars": 267,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-docs-style",
+   "old_chars": 102,
+   "new_chars": 292,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-expert-routing",
+   "old_chars": 186,
+   "new_chars": 379,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-git-worktree",
+   "old_chars": 96,
+   "new_chars": 290,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-manual-archive",
+   "old_chars": 123,
+   "new_chars": 321,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-motor-tdd",
+   "old_chars": 127,
+   "new_chars": 315,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-subagent-dev",
+   "old_chars": 108,
+   "new_chars": 302,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-tdd",
+   "old_chars": 100,
+   "new_chars": 276,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-ui-design",
+   "old_chars": 68,
+   "new_chars": 256,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-ui-expert",
+   "old_chars": 187,
+   "new_chars": 369,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-verification",
+   "old_chars": 72,
+   "new_chars": 266,
+   "changed": true
+  },
+  {
+   "skill": "chinasim-writing-plans",
+   "old_chars": 82,
+   "new_chars": 278,
+   "changed": true
+  },
+  {
+   "skill": "dealii-library",
+   "old_chars": 146,
+   "new_chars": 308,
+   "changed": true
+  },
+  {
+   "skill": "diagnosing-superpowers",
+   "old_chars": 375,
+   "new_chars": 264,
+   "changed": true
+  },
+  {
+   "skill": "dispatching-parallel-agents",
+   "old_chars": 106,
+   "new_chars": 296,
+   "changed": true
+  },
+  {
+   "skill": "dolfin-library",
+   "old_chars": 69,
+   "new_chars": 297,
+   "changed": true
+  },
+  {
+   "skill": "eigen-library",
+   "old_chars": 58,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "executing-plans",
+   "old_chars": 170,
+   "new_chars": 247,
+   "changed": true
+  },
+  {
+   "skill": "fftw-library",
+   "old_chars": 58,
+   "new_chars": 282,
+   "changed": true
+  },
+  {
+   "skill": "finishing-a-development-branch",
+   "old_chars": 101,
+   "new_chars": 294,
+   "changed": true
+  },
+  {
+   "skill": "fmt-library",
+   "old_chars": 57,
+   "new_chars": 279,
+   "changed": true
+  },
+  {
+   "skill": "freefem-library",
+   "old_chars": 59,
+   "new_chars": 289,
+   "changed": true
+  },
+  {
+   "skill": "getdp-library",
+   "old_chars": 58,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "gmsh-library",
+   "old_chars": 58,
+   "new_chars": 282,
+   "changed": true
+  },
+  {
+   "skill": "gromacs-library",
+   "old_chars": 61,
+   "new_chars": 291,
+   "changed": true
+  },
+  {
+   "skill": "gtest-library",
+   "old_chars": 64,
+   "new_chars": 290,
+   "changed": true
+  },
+  {
+   "skill": "hdf5-library",
+   "old_chars": 57,
+   "new_chars": 281,
+   "changed": true
+  },
+  {
+   "skill": "hypre-library",
+   "old_chars": 58,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "kokkos-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "lammps-library",
+   "old_chars": 53,
+   "new_chars": 281,
+   "changed": true
+  },
+  {
+   "skill": "libigl-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "libsc-library",
+   "old_chars": 58,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "meep-library",
+   "old_chars": 58,
+   "new_chars": 282,
+   "changed": true
+  },
+  {
+   "skill": "metis-library",
+   "old_chars": 58,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "mfem-library",
+   "old_chars": 58,
+   "new_chars": 282,
+   "changed": true
+  },
+  {
+   "skill": "mmg-library",
+   "old_chars": 56,
+   "new_chars": 278,
+   "changed": true
+  },
+  {
+   "skill": "moose-library",
+   "old_chars": 137,
+   "new_chars": 297,
+   "changed": true
+  },
+  {
+   "skill": "mumps-library",
+   "old_chars": 58,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "netcdf-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "netgen-library",
+   "old_chars": 65,
+   "new_chars": 293,
+   "changed": true
+  },
+  {
+   "skill": "nlohmann-json-library",
+   "old_chars": 67,
+   "new_chars": 208,
+   "changed": true
+  },
+  {
+   "skill": "nng-library",
+   "old_chars": 57,
+   "new_chars": 279,
+   "changed": true
+  },
+  {
+   "skill": "occt-library",
+   "old_chars": 51,
+   "new_chars": 275,
+   "changed": true
+  },
+  {
+   "skill": "openblas-library",
+   "old_chars": 62,
+   "new_chars": 294,
+   "changed": true
+  },
+  {
+   "skill": "openfoam-library",
+   "old_chars": 121,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "p4est-library",
+   "old_chars": 52,
+   "new_chars": 278,
+   "changed": true
+  },
+  {
+   "skill": "paraview-library",
+   "old_chars": 62,
+   "new_chars": 294,
+   "changed": true
+  },
+  {
+   "skill": "parmetis-library",
+   "old_chars": 61,
+   "new_chars": 293,
+   "changed": true
+  },
+  {
+   "skill": "petsc-library",
+   "old_chars": 59,
+   "new_chars": 285,
+   "changed": true
+  },
+  {
+   "skill": "precice-library",
+   "old_chars": 60,
+   "new_chars": 290,
+   "changed": true
+  },
+  {
+   "skill": "protobuf-library",
+   "old_chars": 62,
+   "new_chars": 294,
+   "changed": true
+  },
+  {
+   "skill": "pybind11-library",
+   "old_chars": 61,
+   "new_chars": 293,
+   "changed": true
+  },
+  {
+   "skill": "qt6-library",
+   "old_chars": 50,
+   "new_chars": 272,
+   "changed": true
+  },
+  {
+   "skill": "receiving-code-review",
+   "old_chars": 234,
+   "new_chars": 263,
+   "changed": true
+  },
+  {
+   "skill": "requesting-code-review",
+   "old_chars": 107,
+   "new_chars": 292,
+   "changed": true
+  },
+  {
+   "skill": "scotch-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "slepc-library",
+   "old_chars": 57,
+   "new_chars": 283,
+   "changed": true
+  },
+  {
+   "skill": "spdlog-library",
+   "old_chars": 60,
+   "new_chars": 288,
+   "changed": true
+  },
+  {
+   "skill": "spooles-library",
+   "old_chars": 58,
+   "new_chars": 288,
+   "changed": true
+  },
+  {
+   "skill": "su2-library",
+   "old_chars": 138,
+   "new_chars": 294,
+   "changed": true
+  },
+  {
+   "skill": "subagent-driven-development",
+   "old_chars": 85,
+   "new_chars": 275,
+   "changed": true
+  },
+  {
+   "skill": "sundials-library",
+   "old_chars": 61,
+   "new_chars": 293,
+   "changed": true
+  },
+  {
+   "skill": "superlu-dist-library",
+   "old_chars": 65,
+   "new_chars": 295,
+   "changed": true
+  },
+  {
+   "skill": "systematic-debugging",
+   "old_chars": 91,
+   "new_chars": 274,
+   "changed": true
+  },
+  {
+   "skill": "tbb-library",
+   "old_chars": 62,
+   "new_chars": 284,
+   "changed": true
+  },
+  {
+   "skill": "test-driven-development",
+   "old_chars": 79,
+   "new_chars": 265,
+   "changed": true
+  },
+  {
+   "skill": "tetgen-library",
+   "old_chars": 59,
+   "new_chars": 287,
+   "changed": true
+  },
+  {
+   "skill": "triangle-library",
+   "old_chars": 59,
+   "new_chars": 291,
+   "changed": true
+  },
+  {
+   "skill": "trilinos-library",
+   "old_chars": 62,
+   "new_chars": 294,
+   "changed": true
+  },
+  {
+   "skill": "using-git-worktrees",
+   "old_chars": 196,
+   "new_chars": 261,
+   "changed": true
+  },
+  {
+   "skill": "using-superpowers",
+   "old_chars": 154,
+   "new_chars": 233,
+   "changed": true
+  },
+  {
+   "skill": "verification-before-completion",
+   "old_chars": 225,
+   "new_chars": 272,
+   "changed": true
+  },
+  {
+   "skill": "vtk-library",
+   "old_chars": 50,
+   "new_chars": 272,
+   "changed": true
+  },
+  {
+   "skill": "writing-plans",
+   "old_chars": 84,
+   "new_chars": 260,
+   "changed": true
+  },
+  {
+   "skill": "writing-skills",
+   "old_chars": 97,
+   "new_chars": 274,
+   "changed": true
+  }
+ ]
+}

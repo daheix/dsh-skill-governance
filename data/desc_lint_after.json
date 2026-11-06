@@ -1,0 +1,17 @@
+{
+ "tool": "dsh-skill-desc-lint.py M19",
+ "generated_at": "2026-11-06T12:02:16.910756+00:00",
+ "pool": "/home/wsc/wsc/ChinaSimStdio/.dsh/skills",
+ "pool_size": 88,
+ "sop_pass": 88,
+ "sop_pass_rate": 1.0,
+ "r1_length_split": {
+  "pass": 88,
+  "short": 0,
+  "over": 0,
+  "n/a": 0
+ },
+ "r2_signal_rate": 1.0,
+ "r3_exclude_rate": 1.0,
+ "violations": []
+}

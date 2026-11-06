@@ -1,0 +1,1192 @@
+{
+ "tool": "dsh-skill-audit.py M18",
+ "generated_at": "2026-11-06T13:00:25.628381+00:00",
+ "root": "/home/wsc/.dsh/sessions",
+ "files_found": 1338,
+ "files_scanned": 1338,
+ "parse_failures": 0,
+ "elapsed_seconds": 15.2,
+ "totals": {
+  "stores": 1338,
+  "store_lines": 411083,
+  "decompressed_bytes": 1181923961,
+  "catalog_msgs": 1440,
+  "catalog_update_msgs": 120,
+  "catalog_entry_mentions": 162816,
+  "unique_entry_names": 178,
+  "catalog_chars_total": 21648699,
+  "catalog_tokens_char_div4_estimate": 5412174,
+  "max_catalog_chars_single": 39852,
+  "skill_defs_occurrences": 3593,
+  "skill_tool_calls": 51,
+  "skill_content_blocks": 65,
+  "skill_content_user_blocks": 2,
+  "skill_content_tool_blocks": 63,
+  "degraded_catalog_lines": 0,
+  "invocations": 6,
+  "unique_invoked_names": 3,
+  "distinct_models": 10,
+  "content_loads_delivered": 63,
+  "unique_content_loaded_names": 23,
+  "unique_loaded_names_union": 24
+ },
+ "store_presence": {
+  "stores_with_catalog": 1320,
+  "stores_with_invocation": 3,
+  "stores_with_tool_calls": 35,
+  "stores_with_skill_content": 24
+ },
+ "top_stores_by_catalog_msgs": [
+  {
+   "store_id": "s0789",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-53daf3eb-d584-4ddb-bbaa-f858de9a4787",
+   "lines": 23052,
+   "raw_bytes": 75657389,
+   "catalog_msgs": 36,
+   "catalog_update_msgs": 35,
+   "catalog_entry_mentions": 4622,
+   "unique_entries": 140,
+   "catalog_chars_total": 658792,
+   "max_catalog_chars": 21081,
+   "skill_defs": 381,
+   "skill_tool_calls": 6,
+   "skill_content_blocks": 23,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 23,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 23
+  },
+  {
+   "store_id": "s0911",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-7702a57f-b5f5-4bf9-b9c6-8734f8bf63bc",
+   "lines": 35364,
+   "raw_bytes": 110769606,
+   "catalog_msgs": 18,
+   "catalog_update_msgs": 17,
+   "catalog_entry_mentions": 2472,
+   "unique_entries": 153,
+   "catalog_chars_total": 361971,
+   "max_catalog_chars": 21952,
+   "skill_defs": 438,
+   "skill_tool_calls": 3,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s0573",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-0e9a2ed3-c4de-4d71-abfc-fa1b56f5bf66",
+   "lines": 14947,
+   "raw_bytes": 17535007,
+   "catalog_msgs": 11,
+   "catalog_update_msgs": 10,
+   "catalog_entry_mentions": 244,
+   "unique_entries": 83,
+   "catalog_chars_total": 32892,
+   "max_catalog_chars": 8876,
+   "skill_defs": 48,
+   "skill_tool_calls": 5,
+   "skill_content_blocks": 9,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 9,
+   "degraded_catalog_lines": 0,
+   "invocations": 2,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 9
+  },
+  {
+   "store_id": "s0862",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-6aad55f2-02b5-410f-a1c2-55ca580b022c",
+   "lines": 10675,
+   "raw_bytes": 29022056,
+   "catalog_msgs": 10,
+   "catalog_update_msgs": 9,
+   "catalog_entry_mentions": 1360,
+   "unique_entries": 136,
+   "catalog_chars_total": 199587,
+   "max_catalog_chars": 20082,
+   "skill_defs": 173,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s1293",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-f3d689d2-d217-4ab8-9791-f6e85576670e",
+   "lines": 16338,
+   "raw_bytes": 26875683,
+   "catalog_msgs": 7,
+   "catalog_update_msgs": 6,
+   "catalog_entry_mentions": 1097,
+   "unique_entries": 158,
+   "catalog_chars_total": 173281,
+   "max_catalog_chars": 39852,
+   "skill_defs": 81,
+   "skill_tool_calls": 2,
+   "skill_content_blocks": 2,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 2,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "nvidia/minimaxai/minimax-m3.1-flash;nvidia/nvidia/llama-3.1-nemotron-ultra-253b-v1;nvidia/z-ai/glm-5.3-flash;zai/glm-5.3-flash",
+   "model_calls": 4,
+   "content_loads": 2
+  },
+  {
+   "store_id": "s0628",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-221fa99d-d106-4b21-a35a-b874ffad84a5",
+   "lines": 42029,
+   "raw_bytes": 71102503,
+   "catalog_msgs": 6,
+   "catalog_update_msgs": 5,
+   "catalog_entry_mentions": 997,
+   "unique_entries": 167,
+   "catalog_chars_total": 150649,
+   "max_catalog_chars": 25214,
+   "skill_defs": 177,
+   "skill_tool_calls": 2,
+   "skill_content_blocks": 1,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 1,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3;zai/glm-5.3-flash;zai/glm-5.3-flashx",
+   "model_calls": 5,
+   "content_loads": 1
+  },
+  {
+   "store_id": "s0550",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-091ce27a-c565-43a8-8ec7-dd0c7df0c2c7",
+   "lines": 24852,
+   "raw_bytes": 56873038,
+   "catalog_msgs": 5,
+   "catalog_update_msgs": 4,
+   "catalog_entry_mentions": 784,
+   "unique_entries": 158,
+   "catalog_chars_total": 128790,
+   "max_catalog_chars": 39852,
+   "skill_defs": 42,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "nvidia/deepseek-ai/deepseek-v4.1-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s0613",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-1c216273-f560-49f2-ab14-c5a665f6504b",
+   "lines": 776,
+   "raw_bytes": 1904266,
+   "catalog_msgs": 5,
+   "catalog_update_msgs": 4,
+   "catalog_entry_mentions": 556,
+   "unique_entries": 140,
+   "catalog_chars_total": 73037,
+   "max_catalog_chars": 21081,
+   "skill_defs": 5,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s1095",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-b40fc24d-7121-47bf-93d9-b6dbbe28f068",
+   "lines": 41727,
+   "raw_bytes": 99480158,
+   "catalog_msgs": 5,
+   "catalog_update_msgs": 4,
+   "catalog_entry_mentions": 793,
+   "unique_entries": 169,
+   "catalog_chars_total": 114333,
+   "max_catalog_chars": 25351,
+   "skill_defs": 350,
+   "skill_tool_calls": 3,
+   "skill_content_blocks": 3,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 3,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash;zai/glm-5.3-flashx",
+   "model_calls": 3,
+   "content_loads": 3
+  },
+  {
+   "store_id": "s0138",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "4002bd11-8f72-4bb3-a4c5-4def68dca695",
+   "lines": 465,
+   "raw_bytes": 6693640,
+   "catalog_msgs": 4,
+   "catalog_update_msgs": 3,
+   "catalog_entry_mentions": 544,
+   "unique_entries": 136,
+   "catalog_chars_total": 79917,
+   "max_catalog_chars": 20082,
+   "skill_defs": 5,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s0005",
+   "scope": "--home-wsc-wsc--",
+   "session": "session-ab0f2eff-74d2-41dd-b824-7e772683d93a",
+   "lines": 3190,
+   "raw_bytes": 10729318,
+   "catalog_msgs": 3,
+   "catalog_update_msgs": 2,
+   "catalog_entry_mentions": 180,
+   "unique_entries": 61,
+   "catalog_chars_total": 33459,
+   "max_catalog_chars": 11492,
+   "skill_defs": 35,
+   "skill_tool_calls": 1,
+   "skill_content_blocks": 3,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 3,
+   "degraded_catalog_lines": 0,
+   "invocations": 2,
+   "models": "nvidia/z-ai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 3
+  },
+  {
+   "store_id": "s0668",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-2e01db9e-405e-4395-863b-bc5a8b23f3a7",
+   "lines": 325,
+   "raw_bytes": 1002311,
+   "catalog_msgs": 3,
+   "catalog_update_msgs": 2,
+   "catalog_entry_mentions": 432,
+   "unique_entries": 153,
+   "catalog_chars_total": 62796,
+   "max_catalog_chars": 21952,
+   "skill_defs": 3,
+   "skill_tool_calls": 1,
+   "skill_content_blocks": 1,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 1,
+   "degraded_catalog_lines": 0,
+   "invocations": 2,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 1
+  },
+  {
+   "store_id": "s1028",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-98bb133a-baeb-4c0b-8fd2-016c4066ab81",
+   "lines": 14532,
+   "raw_bytes": 29749627,
+   "catalog_msgs": 3,
+   "catalog_update_msgs": 2,
+   "catalog_entry_mentions": 454,
+   "unique_entries": 165,
+   "catalog_chars_total": 66907,
+   "max_catalog_chars": 24873,
+   "skill_defs": 64,
+   "skill_tool_calls": 1,
+   "skill_content_blocks": 1,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 1,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 1
+  },
+  {
+   "store_id": "s1145",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-c3af5091-e8a3-49e5-90d5-ea4946cb8179",
+   "lines": 1822,
+   "raw_bytes": 4552310,
+   "catalog_msgs": 3,
+   "catalog_update_msgs": 2,
+   "catalog_entry_mentions": 408,
+   "unique_entries": 136,
+   "catalog_chars_total": 59972,
+   "max_catalog_chars": 20082,
+   "skill_defs": 5,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s1202",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "session-d2a5dd2f-9590-4d02-8410-afb043509b0d",
+   "lines": 7535,
+   "raw_bytes": 21036727,
+   "catalog_msgs": 3,
+   "catalog_update_msgs": 2,
+   "catalog_entry_mentions": 432,
+   "unique_entries": 153,
+   "catalog_chars_total": 62796,
+   "max_catalog_chars": 21952,
+   "skill_defs": 93,
+   "skill_tool_calls": 1,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s1338",
+   "scope": "--home-wsc-wsc-ChinaSimStdio-pcb3d--",
+   "session": "session-77696984-1e17-4575-8867-7cf4fc45c925",
+   "lines": 13896,
+   "raw_bytes": 36942853,
+   "catalog_msgs": 3,
+   "catalog_update_msgs": 2,
+   "catalog_entry_mentions": 468,
+   "unique_entries": 157,
+   "catalog_chars_total": 66357,
+   "max_catalog_chars": 22458,
+   "skill_defs": 19,
+   "skill_tool_calls": 1,
+   "skill_content_blocks": 1,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 1,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "nvidia/deepseek-ai/deepseek-v4.1-flash",
+   "model_calls": 1,
+   "content_loads": 1
+  },
+  {
+   "store_id": "s0031",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "0ad6ebf5-737a-4dd8-8c9f-3031a057e95b",
+   "lines": 189,
+   "raw_bytes": 2646925,
+   "catalog_msgs": 2,
+   "catalog_update_msgs": 1,
+   "catalog_entry_mentions": 272,
+   "unique_entries": 136,
+   "catalog_chars_total": 40027,
+   "max_catalog_chars": 20082,
+   "skill_defs": 2,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s0159",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "4fc87e89-5579-4de5-98f6-e285ddb53ce7",
+   "lines": 1346,
+   "raw_bytes": 3456436,
+   "catalog_msgs": 2,
+   "catalog_update_msgs": 1,
+   "catalog_entry_mentions": 272,
+   "unique_entries": 136,
+   "catalog_chars_total": 40027,
+   "max_catalog_chars": 20082,
+   "skill_defs": 8,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s0193",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "631018b3-698c-4082-b58c-6f5cdf26b319",
+   "lines": 255,
+   "raw_bytes": 1076213,
+   "catalog_msgs": 2,
+   "catalog_update_msgs": 1,
+   "catalog_entry_mentions": 157,
+   "unique_entries": 157,
+   "catalog_chars_total": 26269,
+   "max_catalog_chars": 22458,
+   "skill_defs": 1,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "nvidia/z-ai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  },
+  {
+   "store_id": "s0306",
+   "scope": "--home-wsc-wsc-ChinaSimStdio--",
+   "session": "9abe19c2-44a6-4fff-b31b-205ff19666df",
+   "lines": 299,
+   "raw_bytes": 3119870,
+   "catalog_msgs": 2,
+   "catalog_update_msgs": 1,
+   "catalog_entry_mentions": 272,
+   "unique_entries": 136,
+   "catalog_chars_total": 40027,
+   "max_catalog_chars": 20082,
+   "skill_defs": 2,
+   "skill_tool_calls": 0,
+   "skill_content_blocks": 0,
+   "skill_content_user_blocks": 0,
+   "skill_content_tool_blocks": 0,
+   "degraded_catalog_lines": 0,
+   "invocations": 0,
+   "models": "zai/glm-5.3-flash",
+   "model_calls": 1,
+   "content_loads": 0
+  }
+ ],
+ "invoked_names": {
+  "superpower-writing-skills": 2,
+  "editing-cordis-compositions": 2,
+  "first": 2
+ },
+ "attempted_names": {
+  "sci-paper-writing": 9,
+  "sundials-library": 9,
+  "getdp-library": 4,
+  "chinasim-ui-expert": 3,
+  "skill-directory": 3,
+  "chinasim-docs-style": 2,
+  "editing-cordis-compositions": 2,
+  "executing-plans": 2,
+  "codearts-sdd": 2,
+  "superpower-writing-skills": 1,
+  "codearts-spec-requirements": 1,
+  "cordis-plugin-development": 1,
+  "using-superpowers": 1,
+  "superpowers": 1,
+  "memory-recall": 1,
+  "chinasim-benchmark-tpl": 1,
+  "expert-team": 1,
+  "writing-plans": 1,
+  "chinasim-ui-design": 1,
+  "calculix-library": 1,
+  "mumps-library": 1,
+  "occt-library": 1,
+  "memory-config": 1,
+  "chinasim-3d-expert": 1
+ },
+ "model_attribution": {
+  "zai/glm-5.3-flash": 1321,
+  "nvidia/deepseek-ai/deepseek-v4.1-flash": 11,
+  "nvidia/z-ai/glm-5.3-flash": 9,
+  "zai/glm-5.3-flashx": 2,
+  "zai/glm-5.3": 2,
+  "nvidia/stepfun-ai/step-5-preview": 2,
+  "openai/gpt-6-luna": 1,
+  "nvidia/google/codegemma-7b": 1,
+  "nvidia/minimaxai/minimax-m3.1-flash": 1,
+  "nvidia/nvidia/llama-3.1-nemotron-ultra-253b-v1": 1
+ },
+ "content_loaded_names": {
+  "getdp-library": 13,
+  "executing-plans": 7,
+  "sci-paper-writing": 5,
+  "expert-team": 5,
+  "writing-plans": 5,
+  "editing-cordis-compositions": 4,
+  "superpower-writing-skills": 3,
+  "chinasim-ui-expert": 3,
+  "chinasim-docs-style": 2,
+  "cordis-plugin-development": 2,
+  "codearts-sdd": 2,
+  "codearts-spec-requirements": 1,
+  "using-superpowers": 1,
+  "memory-recall": 1,
+  "sundials-library": 1,
+  "chinasim-benchmark-tpl": 1,
+  "chinasim-ui-design": 1,
+  "calculix-library": 1,
+  "mumps-library": 1,
+  "occt-library": 1,
+  "memory-config": 1,
+  "skill-directory": 1,
+  "chinasim-3d-expert": 1
+ },
+ "zero_call_leaderboard": {
+  "chinasim-manual-archive": {
+   "stores": 1315,
+   "mentions": 1429
+  },
+  "chinasim-brainstorm": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-code-review": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-debugging": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-git-worktree": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-subagent-dev": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-tdd": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-verification": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-writing-plans": {
+   "stores": 1315,
+   "mentions": 1428
+  },
+  "chinasim-expert-routing": {
+   "stores": 1313,
+   "mentions": 1425
+  },
+  "arpack-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "assimp-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "benchmark-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "boost-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "brainstorming": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "catch2-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "cgal-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "cgns-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "chinasim-motor-tdd": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "diagnosing-superpowers": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "dispatching-parallel-agents": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "dolfin-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "eigen-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "fftw-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "finishing-a-development-branch": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "fmt-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "freefem-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "gmsh-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "gromacs-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "gtest-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "hdf5-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "hypre-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "kokkos-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "lammps-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "libigl-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "libsc-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "meep-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "metis-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "mfem-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "mmg-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "netcdf-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "netgen-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "nlohmann-json-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "nng-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "openblas-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "p4est-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "paraview-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "parmetis-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "petsc-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "precice-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "protobuf-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "pybind11-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "qt6-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "receiving-code-review": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "requesting-code-review": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "scotch-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "slepc-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "spdlog-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "spooles-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "subagent-driven-development": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "systematic-debugging": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "tbb-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "test-driven-development": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "tetgen-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "triangle-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "trilinos-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "using-git-worktrees": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "verification-before-completion": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "vtk-library": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "writing-skills": {
+   "stores": 1313,
+   "mentions": 1421
+  },
+  "graphflow": {
+   "stores": 1318,
+   "mentions": 1415
+  },
+  "adversarial-review": {
+   "stores": 597,
+   "mentions": 701
+  },
+  "api-testing": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "automated-e2e-testing": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "bug-analysis": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "exploratory-testing": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "qa": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "refactor-insight": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "regression-testing": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "requirement-analysis": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "test-case-review": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "test-case-writing": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "test-strategy": {
+   "stores": 597,
+   "mentions": 699
+  },
+  "code-review": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "codebase-design": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "diagnosing-bugs": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "domain-modeling": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "grilling": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "prototype": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "research": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "resolving-merge-conflicts": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "tdd": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "wizard": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "writing-for-agents": {
+   "stores": 597,
+   "mentions": 698
+  },
+  "graphlint": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-brainstorming": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-dispatching-parallel-agents": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-executing-plans": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-finishing-a-development-branch": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-receiving-code-review": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-requesting-code-review": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-subagent-driven-development": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-systematic-debugging": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-test-driven-development": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-using-git-worktrees": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-using-superpowers": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-verification-before-completion": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "superpower-writing-plans": {
+   "stores": 597,
+   "mentions": 695
+  },
+  "memory-to-skill": {
+   "stores": 597,
+   "mentions": 691
+  },
+  "constitution": {
+   "stores": 511,
+   "mentions": 595
+  },
+  "implement": {
+   "stores": 511,
+   "mentions": 595
+  },
+  "plan-spec": {
+   "stores": 511,
+   "mentions": 595
+  },
+  "specify": {
+   "stores": 511,
+   "mentions": 595
+  },
+  "tasks": {
+   "stores": 511,
+   "mentions": 595
+  },
+  "bugs-fix": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "deep-research": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "do-review": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "fix-review": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "spec-do": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "to-grill": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "to-spec": {
+   "stores": 511,
+   "mentions": 591
+  },
+  "codearts-bugfix": {
+   "stores": 298,
+   "mentions": 326
+  },
+  "codearts-developer-test": {
+   "stores": 298,
+   "mentions": 326
+  },
+  "codearts-explore": {
+   "stores": 298,
+   "mentions": 326
+  },
+  "codearts-spec-design": {
+   "stores": 298,
+   "mentions": 326
+  },
+  "codearts-spec-tasks": {
+   "stores": 298,
+   "mentions": 326
+  },
+  "codearts-bugfix-verification": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-dynamic-root-cause": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-experience": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-issue-analysis": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-issue-reproduction": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-knowledge": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-patch-generation": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-rule-generator": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-security-audit": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "codearts-static-root-cause": {
+   "stores": 297,
+   "mentions": 322
+  },
+  "cpp23-architecture": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "dealii-library": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "moose-library": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "openfoam-library": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "patent-writing-cn": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "project-management": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "python-cli-ai": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "qt6-ui-development": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "sci-journal-sosym": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "su2-library": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "superlu-dist-library": {
+   "stores": 270,
+   "mentions": 291
+  },
+  "geometry-base": {
+   "stores": 113,
+   "mentions": 125
+  },
+  "superpower-diagnosing-superpowers": {
+   "stores": 87,
+   "mentions": 104
+  },
+  "delivery-proof": {
+   "stores": 3,
+   "mentions": 13
+  },
+  "delivery-review": {
+   "stores": 3,
+   "mentions": 13
+  },
+  "grill-requirements": {
+   "stores": 3,
+   "mentions": 13
+  },
+  "red-green-tdd": {
+   "stores": 3,
+   "mentions": 13
+  },
+  "agent-experience": {
+   "stores": 1,
+   "mentions": 1
+  },
+  "cordis-composition-reference": {
+   "stores": 1,
+   "mentions": 1
+  }
+ },
+ "zero_call_count": 155
+}
